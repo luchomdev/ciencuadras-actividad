@@ -1,1 +1,29 @@
 @import "../lib/bootstrap/scss/bootstrap";
+
+.home{
+ .header{
+    background-image: url(../images/edificios-centricos-angeles-noche.png);
+    min-height: 550px;
+    padding: 150px 0;
+    background-size: cover;
+    h4, h1{
+        color:$white;
+    }
+    #pills-tab {
+        background: #fff;
+        max-width: 370px;
+      }
+    #pills-tabContent {
+        background: #fff;
+      }
+      .nav-link{
+        color:$black;
+      }
+      .nav-pills{
+        .nav-link.active{
+            background: transparent;
+            color:$orange;
+        }
+      }
+ }
+}
