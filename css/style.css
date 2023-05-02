@@ -13442,6 +13442,11 @@ textarea.form-control-lg {
   border-bottom: 3px solid #FF9D21;
 }
 
+.tools {
+  background: #F3F3FA;
+  padding: 100px 0 !important;
+  margin-top: 50px;
+}
 .tools .card img {
   width: 77px;
 }
