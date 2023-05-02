@@ -155,7 +155,7 @@
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -80px;
   left: 0;
   z-index: 2;
   display: flex;
@@ -183,7 +183,9 @@
     border-top: $carousel-indicator-hit-area-height solid transparent;
     border-bottom: $carousel-indicator-hit-area-height solid transparent;
     opacity: $carousel-indicator-opacity;
+    border-radius: 100%;
     @include transition($carousel-indicator-transition);
+
   }
 
   .active {

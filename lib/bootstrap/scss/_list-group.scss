@@ -75,11 +75,12 @@
 .list-group-item {
   position: relative;
   display: block;
-  padding: var(--#{$prefix}list-group-item-padding-y) var(--#{$prefix}list-group-item-padding-x);
+  padding: 8px;
   color: var(--#{$prefix}list-group-color);
   text-decoration: if($link-decoration == none, null, none);
-  background-color: var(--#{$prefix}list-group-bg);
+  background-color: transparent;
   border: var(--#{$prefix}list-group-border-width) solid var(--#{$prefix}list-group-border-color);
+  font-size:12px;
 
   &:first-child {
     @include border-top-radius(inherit);
@@ -113,6 +114,7 @@
       border-top-width: var(--#{$prefix}list-group-border-width);
     }
   }
+ 
 }
 
 // Horizontal
@@ -142,7 +144,7 @@
         }
 
         + .list-group-item {
-          border-top-width: var(--#{$prefix}list-group-border-width);
+          border-top-width: 0;
           border-left-width: 0;
 
           &.active {
@@ -165,7 +167,7 @@
   @include border-radius(0);
 
   > .list-group-item {
-    border-width: 0 0 var(--#{$prefix}list-group-border-width);
+    border-width: 0;
 
     &:last-child {
       border-bottom-width: 0;

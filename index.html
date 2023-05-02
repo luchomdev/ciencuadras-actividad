@@ -49,21 +49,21 @@
               </li>
             </ul>
           </div>
-          <button type="button" class="btn btn-primary me-4">Ingresar</button>
-<button type="button" class="btn btn-secondary">Publicar</button>
+          <button type="button" class="btn btn-info me-4">Ingresar</button>
+<button type="button" class="btn  btn-success">Publicar</button>
 
         </div>
       </nav>
       <header class="header">
         <div class="container align-items-center">
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-md-8">
                     <h4>Aprovecha la oportunidad de</h4>
                     <h1>Comprar inmuebles<br>a precios increíbles</h1>
                   </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-md-8">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Ubicación</button>
@@ -81,7 +81,7 @@
                       <div class="tab-content p-3" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-3">
+                                <div class="col-md-3">
                                     <p>Categoría</p>
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Seleccionar</option>
@@ -90,7 +90,7 @@
                                         <option value="3">Three</option>
                                       </select>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-md-3">
                                     <p>Tipo de inmueble</p>
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Seleccionar</option>
@@ -99,11 +99,11 @@
                                         <option value="3">Three</option>
                                       </select>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-md-4">
                                     <p>Ciudad o barrio de interés</p>
                                     <input type="text" class="form-control" placeholder="Escribe la ciudad o barrio de interés" aria-label="First name">
                                   </div>
-                                <div class="col-2">
+                                <div class="col-md-2 align-self-end">
                                     <button type="submit" class="btn btn-secondary">Buscar</button>
 
                                 </div>
@@ -111,22 +111,22 @@
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-10">
+                                <div class="col-md-10">
                                     <p>Proyecto o constructora</p>
                                     <input type="text" class="form-control" placeholder="Escribe el nombre de proyecto o constructora" aria-label="Escribe el nombre de proyecto o constructora">
                                 </div>
-                                <div class="col-2">
+                                <div class="col-2 align-self-end">
                                     <button type="submit" class="btn btn-secondary">Buscar</button>
                                 </div>
                           </div>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-10">
+                                <div class="col-md-10">
                                     <p>Código del inmueble</p>
                                     <input type="text" class="form-control" placeholder="Código del inmueble" aria-label="Código del inmueble">
                                 </div>
-                                <div class="col-2">
+                                <div class="col-md-2 align-self-end">
                                     <button type="submit" class="btn btn-secondary">Buscar</button>
                                 </div>
                           </div>
@@ -137,6 +137,399 @@
             </div>
         </div>
       </header>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <h1>Inmuebles sugeridos</h1>
+              <p>Estos son algunos muebles sugeridos para ti</p>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-info">Ver todos los proyectos</button>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                      <div class="col">
+                        <div class="card">
+                          <img src="images/propiedad.png" class="card-img-top" alt="propiedad ciencuadras">
+                          <div class="card-body">
+                            <h5 class="card-title">$291.606.000 </h5>
+                            <p class="small">Apartamento en venta</p>
+                            <p class="card-text">Bogotá - Batan</p>
+                            <p class="small">Cra 16 # 60 -20</p>
+                            <hr>
+                            <ul class="list-group list-group-horizontal list-group-flush">
+                              <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                              <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                              <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                            </ul>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="images/propiedad_1-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                          <div class="card-body">
+                            <h5 class="card-title">$291.606.000 </h5>
+                            <p class="small">Apartamento en venta</p>
+                            <p class="card-text">Bogotá - Batan</p>
+                            <p class="small">Cra 16 # 60 -20</p>
+                            <hr>
+                            <ul class="list-group list-group-horizontal list-group-flush">
+                              <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                              <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                              <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                            </ul>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="images/propiedad_2-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                          <div class="card-body">
+                            <h5 class="card-title">$291.606.000 </h5>
+                            <p class="small">Apartamento en venta</p>
+                            <p class="card-text">Bogotá - Batan</p>
+                            <p class="small">Cra 16 # 60 -20</p>
+                            <hr>
+                            <ul class="list-group list-group-horizontal list-group-flush">
+                              <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                              <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                              <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                            </ul>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="images/propiedad-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                          <div class="card-body">
+                            <h5 class="card-title">$291.606.000 </h5>
+                            <p class="small">Apartamento en venta</p>
+                            <p class="card-text">Bogotá - Batan</p>
+                            <p class="small">Cra 16 # 60 -20</p>
+                            <hr>
+                            <ul class="list-group list-group-horizontal list-group-flush">
+                              <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                              <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                              <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                            </ul>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad.png" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad_1-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad_2-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad.png" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad_1-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad_2-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/propiedad-100.jpg" class="card-img-top" alt="propiedad ciencuadras">
+                        <div class="card-body">
+                          <h5 class="card-title">$291.606.000 </h5>
+                          <p class="small">Apartamento en venta</p>
+                          <p class="card-text">Bogotá - Batan</p>
+                          <p class="small">Cra 16 # 60 -20</p>
+                          <hr>
+                          <ul class="list-group list-group-horizontal list-group-flush">
+                            <li class="list-group-item"><img src="images/bed.png" class="me-2">Habit.</li>
+                            <li class="list-group-item"><img src="images/room.png" class="me-2">2 Baños</li>
+                            <li class="list-group-item"><img src="images/gareje.png" class="me-2">1 Garaje</li>
+                          </ul>                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tools py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h1>Servicios y Herramientas</h1>
+                <p>Encuentra servicios y herramientas que te facilitan la compra, venta o lo que quieras hacer con tu vivienda.</p>
+              </div>
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card text-center" style="width: 18rem;">
+                    <img src="images/icono.png" class="image-card-2 mx-auto d-block pt-4" alt="Herramientas">
+                    <div class="card-body-2 p-3">
+                      <h5 class="card-title-2">¿Necesitas crédito de vivienda?</h5>
+                      <p class="card-text text-start">Solicita ahora tu leasing habitacional o crédito hipotecario con Davivienda.</p>
+                      <a href="#" class="btn btn-info">Solicitar crédito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center" style="width: 18rem;">
+                    <img src="images/icono.png" class="image-card-2 mx-auto d-block pt-4" alt="Herramientas">
+                    <div class="card-body-2 p-3">
+                      <h5 class="card-title-2">¿Necesitas crédito de vivienda?</h5>
+                      <p class="card-text text-start">Solicita ahora tu leasing habitacional o crédito hipotecario con Davivienda.</p>
+                      <a href="#" class="btn btn-info">Solicitar crédito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center" style="width: 18rem;">
+                    <img src="images/icono.png" class="image-card-2 mx-auto d-block pt-4" alt="Herramientas">
+                    <div class="card-body-2 p-3">
+                      <h5 class="card-title-2">¿Necesitas crédito de vivienda?</h5>
+                      <p class="card-text text-start">Solicita ahora tu leasing habitacional o crédito hipotecario con Davivienda.</p>
+                      <a href="#" class="btn btn-info">Solicitar crédito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center" style="width: 18rem;">
+                    <img src="images/icono.png" class="image-card-2 mx-auto d-block pt-4" alt="Herramientas">
+                    <div class="card-body-2 p-3">
+                      <h5 class="card-title-2">¿Necesitas crédito de vivienda?</h5>
+                      <p class="card-text text-start">Solicita ahora tu leasing habitacional o crédito hipotecario con Davivienda.</p>
+                      <a href="#" class="btn btn-info">Solicitar crédito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="py-5">
+         <div class="container">
+            <div class="row">
+              <div class="card col-md-12 p-5 bg-grey">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h5 class="title">¿Necesitas ayuda? Habla con nuestros expertos</h5>
+                    <p class="card-text">Habla con nuestros expertos y encuentra la propiedad que estas buscando</p>
+                  </div>
+                  <div class="col-md-4">
+                    <button type="button" class="btn btn-info">Contáctanos</button>
+                    <button type="button" class="btn btn-success">Llámanos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+      </section>
+
+<footer class="text-center text-lg-start">
+ 
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+     
+      <div class="row mt-3">
+      
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+         <img class="mb-2" src="images/Logo-white.png">
+          
+          <p>
+            Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade bel när feras redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. 
+          </p>
+        </div>
+       
+
+    
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Apartamentos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Locales</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Casas</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Oficinas</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Links de interés
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Quienes somos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contacto</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Teérminos y condiciones</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Políticas de privacidad</a>
+          </p>
+        </div>
+      
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Av. El Dorado No. 68B-31 Bogotá D.C.</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="#">ciencuadras.com.co</a>
+  </div>
+</footer>
+
       <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -10,20 +10,64 @@
         color:$white;
     }
     #pills-tab {
-        background: #fff;
+        background: $white;
         max-width: 370px;
+        border-radius: 5px 5px 0px 0px;
+        border-bottom: 1px solid $indigo;
       }
     #pills-tabContent {
-        background: #fff;
+        background: $white;
+        border-radius: 0px 5px 5px 5px;
+        p{
+          color:$indigo;
+        }
+        .btn-secondary{
+          width: 100%;
+        }
       }
       .nav-link{
-        color:$black;
+        color:$indigo;
+        border-radius: 0;
       }
       .nav-pills{
         .nav-link.active{
             background: transparent;
             color:$orange;
+            border-bottom: 3px solid $orange;
         }
       }
  }
+}
+
+.tools{
+  .card{
+    img{
+      width: 77px;
+    }
+  }
+}
+.bg-grey{
+  background: #F7F7F7;
+}
+footer{
+  padding: 50px 0 0 0;
+  background-color: $primary;
+  color:$white;
+}
+
+.btn-success{
+  color: $white;
+  &:hover{
+    color:$white;
+  }
+}
+.btn-info{
+  background-color: $white;
+  color:$success;
+  border:1px solid $success;
+  &:hover{
+    background-color: $success;
+    color:$white;
+    border:1px solid $success;
+  }
 }

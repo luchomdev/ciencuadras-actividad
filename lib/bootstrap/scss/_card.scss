@@ -72,11 +72,13 @@
   flex: 1 1 auto;
   padding: var(--#{$prefix}card-spacer-y) var(--#{$prefix}card-spacer-x);
   color: var(--#{$prefix}card-color);
+  background:#F8F8F8;
 }
 
 .card-title {
   margin-bottom: var(--#{$prefix}card-title-spacer-y);
   color: var(--#{$prefix}card-title-color);
+  font-weight: bold;
 }
 
 .card-subtitle {
